@@ -27,3 +27,47 @@ console.log(person);
 //deleting a property
 delete person.sex;
 console.log(person);
+console.log(person.hasOwnProperty(friends));
+/*function students(obj , prop)
+{
+student = {
+    "registration number" : 220004209,
+    department : "CSE",
+    colleege : 'cst',
+    school : 'ict'
+};
+
+if(obj.hasOwnProperty(prop))
+{
+    console.log(obj.prop);
+}
+else{
+    return 'it is not found';
+}
+}
+console.log(students(student,college));*/
+
+//nested array in object
+ myPlant = [{
+
+ 
+    type : "flowers",
+    list:[
+        'rose',
+        'hyacinth',
+        'lavender'
+    ]
+ },
+ {
+    type : 'trees',
+    list: [
+        'pine',
+        'bamboo'
+    ]
+ }
+];
+//const secondTree =  myPlant[0].list[2];
+console.log(myPlant);
+
+    
+ 
