@@ -1,16 +1,14 @@
 //boolean value
-function test(mycondnition){
-    if(condition=true)
-    {
-        console.log("it was true")
-     return "it was true";
-      
+function test (myCondition) {
+    if (myCondition) {
+
+        console.log("it was true");
+      return "It was true";
     }
-    else{
-        console.log("it was false");
-        return "it was false";
-        
-    }
-}
-test(true);
-test(false);
+
+    console.log("it was false");
+    return "It was false";
+  }
+  
+  test(true);
+  test(false);
