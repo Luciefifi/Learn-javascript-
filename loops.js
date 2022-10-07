@@ -8,6 +8,7 @@ while(i<=5)
 }
 let a = 10;
 while(a>=0)
+while(i<=5)
 {
     arr.push(a);
     a--;

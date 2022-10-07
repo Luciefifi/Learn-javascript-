@@ -17,7 +17,7 @@ let switchFunction = val =>
                         default:
                             answer = [["react native" , "react js"],[1 , "alpha"], ["node js" ,2] ,3 ,4 ,5];
     }
-    //console.log(answer);
+    console.log(answer);
     //return answer;
     
 
